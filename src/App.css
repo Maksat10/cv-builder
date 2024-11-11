@@ -1,0 +1,40 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center the components horizontally */
+  gap: 20px; /* Space between rows */
+  background-color: #f9f9f9; /* Background color for the main container */
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px hsl(0, 0%, 0%, 0.5);
+}
+
+.top-row {
+  display: flex;
+  gap: 20px; /* Space between the top row components */
+}
+
+.general-info,
+.education,
+.experience {
+  max-width: 400px; /* Limit width for all components */
+  padding: 20px;
+  border: 2px solid #4b02a0;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff; /* Component background color */
+}
+
+@media (max-width: 768px) {
+  .top-row {
+      flex-direction: column; /* Stack components on smaller screens */
+      align-items: center;
+  }
+}
