@@ -1,7 +1,28 @@
-CV Builder
+# CV Builder 📄  
+*A React application for creating and managing resume content.*  
+**Live Demo:** [Build Your CV](https://cv-builder-hazel-rho.vercel.app/)  
 
-This is CV Builder app where users can input and manage their personal, educational, and professional details to create a CV.
+---
 
-Live Demo
+## Overview  
+A web-based resume creator that allows users to:
+- Input personal, educational, and work experience details  
+- Manage multiple sections through a form interface  
+- See real-time preview updates as they type  
 
-Live version of the project https://cv-builder-hazel-rho.vercel.app/
+---
+
+## Features  
+- **Section Management**  
+  - Add/remove education and work experience entries  
+  - Edit contact information and skills  
+- **Instant Preview** - Live rendering of CV content  
+- **Responsive Design** - Works on desktop and mobile    
+
+---
+
+## Technology Stack  
+- **Framework**: React  
+- **State Management**: React Hooks  
+- **Styling**: CSS
+- **Deployment**: Vercel  
