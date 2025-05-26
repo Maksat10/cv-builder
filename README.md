@@ -12,15 +12,6 @@ A web-based resume creator that allows users to:
 
 ---
 
-## Features  
-- **Section Management**  
-  - Add/remove education and work experience entries  
-  - Edit contact information and skills  
-- **Instant Preview** - Live rendering of CV content  
-- **Responsive Design** - Works on desktop and mobile    
-
----
-
 ## Technology Stack  
 - **Framework**: React  
 - **State Management**: React Hooks  
